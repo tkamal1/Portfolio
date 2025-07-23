@@ -1,8 +1,14 @@
 import React from 'react'
 import "./RightPanel.css";
-function RightPanel() {
+function RightPanel({ toggleTheme, currentTheme }) {
   return (
-    <div className='RightPanel'>RightPanel</div>
+    <div className='RightPanel'>
+
+      <span>Tridib's Portfolio</span>
+      <button className="nav-btn" onClick={toggleTheme}>
+        Switch to {currentTheme === 'light' ? 'Dark' : 'Light'} Mode
+      </button>
+    </div>
   )
 }
 

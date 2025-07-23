@@ -1,0 +1,40 @@
+/* ===== LIGHT THEME ===== */
+/* .light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #facc15; 
+  --card-color: #f9f9f9;
+}  
+
+/* ===== DARK THEME ===== */
+/* .dark {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #f5c518;
+ 
+}  */
+
+/* Light Theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #f5c518;
+  --card-color: #ece7e763;
+}
+
+/* Dark Theme */
+body.dark {
+  /* --bg-color: #121212; */
+  --bg-color: #555252;
+  --text-color: #e0e0e0;
+  /* --text-color: #c0b1b1; */
+  --accent-color: #f5c518;
+   --card-color: #e6dada77;
+}
+
+
+
+
+
+
+

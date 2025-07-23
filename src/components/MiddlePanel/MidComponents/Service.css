@@ -1,0 +1,264 @@
+.service-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: clamp(90vh, 5vh, 80vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    /* background-color: #d9d9d9; */
+    /* padding: 20px; */
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 16px rgba(203, 208, 209, 0.911);
+    /* box-shadow: 0 0 16px rgba(94, 0, 0, 0.15); */
+
+
+}
+
+
+.about-container {
+    height: 8%;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+}
+
+.about-container h1 {
+    font-size: clamp(20px, 3vw, 40px);
+    color: var(--accent-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quets-container {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.quets-container h2 {
+    font-size: clamp(14px, 3vw, 28px);
+    color: var(--text-color);
+}
+
+.shorts-bio {
+    height: 12%;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shorts-bio p {
+    font-size: clamp(8px, 1.1vw, 18px);
+    color: var(--text-color);
+}
+
+.what-i-do-box {
+    height: 60%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.box-title {
+    height: 10%;
+    width: 40%;
+    background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-title h3 {
+    font-size: clamp(8px, 2vw, 18px);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--bg-color);
+}
+
+
+.box-content {
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box-content1 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.content1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.content1 img {
+    height: clamp(15px, 8vw, 35px);
+    width: clamp(15px, 8vw, 35px);
+
+
+
+}
+
+.content1 h4 {
+    font-size: clamp(8px, 1.1vw, 20px);
+    color: var(--accent-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content1 p {
+    font-size: clamp(6px, 1vw, 16px);
+    color: var(--text-color);
+    text-align: center;
+
+}
+
+.content2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.content2 img {
+    height: 30%;
+    width: 25%;
+}
+
+.content2 h4 {
+    font-size: clamp(8px, 1.1vw, 20px);
+    color: var(--accent-color);
+}
+
+.content2 p {
+    font-size: clamp(6px, 1vw, 16px);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.content3 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.content3 img {
+    height: 30%;
+    width: 25%;
+}
+
+.content3 h4 {
+    font-size: clamp(8px, 1.1vw, 18px);
+    color: var(--accent-color);
+}
+
+.content3 p {
+    font-size: clamp(6px, 1vw, 16px);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.content4 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.content4 img {
+    height: 30%;
+    width: 25%;
+}
+
+.content4 h4 {
+    font-size: clamp(8px, 1.1vw, 18px);
+    color: var(--accent-color);
+}
+
+.content4 p {
+    font-size: clamp(6px, 1vw, 16px);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.box-content2 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.box2 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.fact-container {
+    height: 85%;
+    width: 100%;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+
+
+}
+
+.fact-item {
+    background-color: var(--card-color);
+    border-radius: 50%;
+    width: clamp(80px, 10vw, 150px);
+    height: clamp(80px, 10vw, 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 2px 16px rgba(182, 185, 185, 0.822);
+
+}
+
+.fact-item h1 {
+    font-size: clamp(8px, 3.5vw, 25px);
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.fact-item h3 {
+    font-size: clamp(6px, 1vw, 15px);
+    color: var(--text-color);
+    text-align: center;
+}

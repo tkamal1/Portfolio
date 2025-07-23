@@ -13,9 +13,9 @@
 }
 
 .hero {
-    height: 400px;
+    height: clamp(250px, 50vh, 450px);
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -30,26 +30,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    gap: 12px;
 }
 
 .heroline1 {
     height: 40%;
     width: 100%;
 
+    display: flex;
+
+    align-items: flex-end;
+
 }
 
 .heroline1 h1 {
-    font-size: 55px;
+    font-size: clamp(18px, 4vw, 55px);
+    color: var(--text-color);
 }
 
 .heroline1 span {
-    color: #ffb400;
+    color:var(--accent-color);
 }
 
 .heroline2 {
-    height: 20%;
-    margin-right: 20px;
+    height: 28%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heroline2 p {
+    font-size: clamp(10px, 2vw, 18px);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-color);
 
 }
 
@@ -61,13 +76,15 @@
 }
 
 .heroline3 .button {
-    height: 50px;
-    width: 150px;
+    height: clamp(30px, 6vh, 50px);
+    width: clamp(80px, 12vw, 150px);
     background-color: #ffb400;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    font-size: clamp(10px, 2vw, 18px);
+    color: var(--text-color);
 }
 
 .hero-img {
@@ -80,6 +97,5 @@
 }
 
 .hero-img img {
-    height: 350px;
-
+    height: clamp(18px, 30vw, 350px);
 }
