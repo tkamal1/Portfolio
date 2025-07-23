@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f0f6;
+  
+}
+
+.main-container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
